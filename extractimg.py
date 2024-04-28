@@ -46,7 +46,7 @@ def detect_labels(photo, bucket):
     return len(response['Labels'])
 
 def main():
-    photo = 'someone and dog.jpeg'
+    photo = 'people.jpeg'
     bucket = 'ayos-rekognition-bucket'
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
