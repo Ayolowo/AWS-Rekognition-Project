@@ -119,14 +119,14 @@ client = boto3.client('rekognition')
 
     return len(response['Labels'])
 
-def main():
-photo = 'image.jpeg'
-bucket = 'your-bucket-name'
-label_count = detect_labels(photo, bucket)
-print("Labels detected:", label_count)
+    def main():
+    photo = 'image.jpeg'
+    bucket = 'your-bucket-name'
+    label_count = detect_labels(photo, bucket)
+    print("Labels detected:", label_count)
 
-if **name** == "**main**":
-main()
+    if **name** == "**main**":
+    main()
 
 ## Usage
 
