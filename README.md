@@ -135,4 +135,4 @@ main()
 
 ## Results
 
-[Results](./Figures/Figure_3.png)
+![Results](./Figures/Figure_3.png)
